@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url(../conseptual-session/img/portfolio-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 590px;
+}
+.body{
+    padding: 100px 7% 0 7%;
+    text-align: center;
+}
+.body h1{
+    font-size: 40px;
+    color: tomato;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.body p{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+.button{
+    text-align: center;
+    padding-top: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.btn:hover{
+    background-color: #068858;
+    transition: 0.5s ease-in;
+}
